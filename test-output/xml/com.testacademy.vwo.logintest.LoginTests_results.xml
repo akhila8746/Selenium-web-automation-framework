@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Web_Automation"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="106.440">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testLoginPositive"
+                time="55.858"
+                classname="com.testacademy.vwo.logintest.LoginTests">
+            </testcase>
+            <testcase
+                name="testLoginNegative"
+                time="50.582"
+                classname="com.testacademy.vwo.logintest.LoginTests">
+            </testcase>
+</testsuite>

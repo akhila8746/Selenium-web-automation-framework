@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All test suite">
+    <test verbose="2" preserve-order="true" name="Web_Automation">
+
+
+        <classes>
+            <class name="com.testacademy.vwo.logintest.LoginTests">
+              <methods>
+                  <include name="testLoginPositive"/>
+                  <include name="testLoginNegative"/>
+
+              </methods>
+            </class>
+       </classes>
+    </test>
+</suite>
